@@ -1,0 +1,62 @@
+#id-1{
+    font-size: 2rem;
+}
+#id-2{
+    font-size: 2em;
+}
+#id-3{
+    height: 15vh;
+    
+}
+#id-4{
+   width: 5vw;
+}
+#id-5{
+    font-size: 24px;
+}
+
+/* Ques 2 */
+div div p{
+    background-color: rgb(250, 133, 199);
+    padding: 5px;
+}
+div>p{
+    background-color: rgb(251, 175, 117);
+    padding: 5px;
+}
+div + p{
+    background-color: rgb(128, 255, 255);
+    padding: 5px;
+     
+}
+span ~p{
+    background-color: rgb(157, 249, 124);
+}
+.TT{
+    width:40vw;
+    height: 20vh;
+    border: solid 2px yellow;
+    padding: 5px;
+    margin: 10px;
+}
+#trans{
+    transition: all 1s ease-in-out;
+
+}
+#trans:hover{
+    background-color: rgb(250, 250, 146);
+    border: 2px solid orange;
+    font-size: 24px;
+    font-style: italic;
+}
+#tranf{
+    margin-top: 100px;
+    transition: all 1s ease-in-out;
+}
+#tranf:hover{
+    transform: rotate(360deg);
+    transform: scale(2);
+    background-color: rgb(212, 156, 247);
+    border: 2px solid purple;
+
+}
